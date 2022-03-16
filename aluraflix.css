@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/08/bb/0c/08bb0c2e9f9e629833974ed8c8a5e4dc.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  text-shadow: 2px 2px black;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  text-shadow: 2px 2px black;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 120px;
+}
+
+button {
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #da1e26;
+  color: white;
+  border-style: hidden;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+#ulAlbums {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+#ulAlbums img {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 50px 10px 10px 0px;
+  height: 250px;
+  width: 250px;
+}
+
+#ulAlbums img:hover{
+  box-shadow: 0px 0px 20px gray;
+}
+
+#ulAlbums label {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  font-size: 20px;
+  width: 250px;
+  justify-content: center;
+}
